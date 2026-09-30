@@ -16,9 +16,7 @@ img {
     display: block;
 }
 
-/* =========================
-   HEADER
-========================= */
+/* HEADER */
 
 header {
     background: #24152f;
@@ -72,3 +70,134 @@ nav a:focus {
     outline: 3px solid #d8b4fe;
     outline-offset: 3px;
 }
+
+/* MAIN */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 35px auto;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(50, 30, 70, 0.08);
+}
+
+h1,
+h2,
+h3 {
+    color: #321b45;
+}
+
+h1 {
+    line-height: 1.2;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    color: #7045a0;
+}
+
+p {
+    max-width: 800px;
+}
+
+.intro {
+    color: #7045a0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+/* HERO */
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.hero figure {
+    margin: 0;
+}
+
+.hero img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+/* KNAPPAR */
+
+.button {
+    display: inline-block;
+    background: #7045a0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 5px 5px 5px 0;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background: #543279;
+}
+
+.button:focus {
+    outline: 3px solid #24152f;
+    outline-offset: 3px;
+}
+
+.button.secondary {
+    background: #3f3148;
+}
+
+.button.secondary:hover {
+    background: #24152f;
+}
+
+
+/* KORT */
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-list article {
+    border: 1px solid #dfd3e8;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fbf9fd;
+}
+
+
+/* PROJEKT */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.project-card {
+    padding: 20px;
+    border: 1px solid #dfd3e8;
+    border-radius: 10px;
+    background: #fbf9fd;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
