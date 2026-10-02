@@ -275,3 +275,68 @@ button:focus {
 .quote {
     border-left: 5px solid #7045a0;
 }
+
+/* FOOTER */
+
+footer {
+    background: #24152f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 5px auto;
+}
+
+
+/* RESPONSIVT - 700px */
+
+@media (min-width: 700px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .hero {
+        grid-template-columns: 1.2fr 0.8fr;
+        align-items: center;
+    }
+
+    .card-list {
+        flex-direction: row;
+    }
+
+    .card-list article {
+        flex: 1;
+    }
+
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* RESPONSIVT - 1000px */
+
+@media (min-width: 1000px) {
+
+    .project-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    section {
+        padding: 35px;
+    }
+}
