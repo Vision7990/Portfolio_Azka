@@ -340,3 +340,7 @@ footer p {
         padding: 35px;
     }
 }
+
+.visually-hidden {
+    display: none;
+}
